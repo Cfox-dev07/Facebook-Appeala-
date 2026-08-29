@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAE2CD6F3042A54E00B75258 /* FacebookAppealAssistantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE2CD6E3042A54E00B75258 /* FacebookAppealAssistantApp.swift */; };
+		FAE2CD713042A54E00B75258 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE2CD703042A54E00B75258 /* ContentView.swift */; };
+		FAE2CD733042A55300B75258 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE2CD723042A55300B75258 /* Assets.xcassets */; };
+		FAE2CD763042A55300B75258 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE2CD753042A55300B75258 /* Preview Assets.xcassets */; };
+		FAE2CD803042A55300B75258 /* FacebookAppealAssistantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE2CD7F3042A55300B75258 /* FacebookAppealAssistantTests.swift */; };
+		FAE2CD8A3042A55300B75258 /* FacebookAppealAssistantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE2CD893042A55300B75258 /* FacebookAppealAssistantUITests.swift */; };
+		FAE2CD8C3042A55300B75258 /* FacebookAppealAssistantUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE2CD8B3042A55300B75258 /* FacebookAppealAssistantUITestsLaunchTests.swift */; };
+		FAE2CD9E3042B07800B75258 /* LockDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE2CD9D3042B07800B75258 /* LockDetector.swift */; };
+		FAE2CDA03042B0D300B75258 /* AppealDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE2CD9F3042B0D300B75258 /* AppealDatabase.swift */; };
+		FAE2CDA23042B10100B75258 /* AppealMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE2CDA13042B10100B75258 /* AppealMatcher.swift */; };
+		FAE2CDA43042B11D00B75258 /* AccountStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE2CDA33042B11D00B75258 /* AccountStatus.swift */; };
+		FAE2CDA63042B14C00B75258 /* AppealRecommendation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE2CDA53042B14C00B75258 /* AppealRecommendation.swift */; };
+		FAE2CDA83042B16B00B75258 /* AppealResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE2CDA73042B16B00B75258 /* AppealResult.swift */; };
+		FAE2CDAA3042B18F00B75258 /* OCRAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE2CDA93042B18F00B75258 /* OCRAnalyzer.swift */; };
+		FAE2CDAC3042B1B400B75258 /* FacebookLoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE2CDAB3042B1B400B75258 /* FacebookLoginManager.swift */; };
+		FAE2CDAE3042B1E100B75258 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE2CDAD3042B1E100B75258 /* HomeView.swift */; };
+		FAE2CDB03042B1F400B75258 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE2CDAF3042B1F400B75258 /* ResultView.swift */; };
+		FAE2CDB23042B3E800B75258 /* AppealFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE2CDB13042B3E800B75258 /* AppealFinder.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAE2CD7C3042A55300B75258 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAE2CD633042A54E00B75258 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAE2CD6A3042A54E00B75258;
+			remoteInfo = FacebookAppealAssistant;
+		};
+		FAE2CD863042A55300B75258 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAE2CD633042A54E00B75258 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAE2CD6A3042A54E00B75258;
+			remoteInfo = FacebookAppealAssistant;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAE2CD6B3042A54E00B75258 /* FacebookAppealAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookAppealAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE2CD6E3042A54E00B75258 /* FacebookAppealAssistantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookAppealAssistantApp.swift; sourceTree = "<group>"; };
+		FAE2CD703042A54E00B75258 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FAE2CD723042A55300B75258 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAE2CD753042A55300B75258 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FAE2CD7B3042A55300B75258 /* FacebookAppealAssistantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookAppealAssistantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE2CD7F3042A55300B75258 /* FacebookAppealAssistantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookAppealAssistantTests.swift; sourceTree = "<group>"; };
+		FAE2CD853042A55300B75258 /* FacebookAppealAssistantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookAppealAssistantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE2CD893042A55300B75258 /* FacebookAppealAssistantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookAppealAssistantUITests.swift; sourceTree = "<group>"; };
+		FAE2CD8B3042A55300B75258 /* FacebookAppealAssistantUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookAppealAssistantUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FAE2CD9D3042B07800B75258 /* LockDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockDetector.swift; sourceTree = "<group>"; };
+		FAE2CD9F3042B0D300B75258 /* AppealDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppealDatabase.swift; sourceTree = "<group>"; };
+		FAE2CDA13042B10100B75258 /* AppealMatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppealMatcher.swift; sourceTree = "<group>"; };
+		FAE2CDA33042B11D00B75258 /* AccountStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountStatus.swift; sourceTree = "<group>"; };
+		FAE2CDA53042B14C00B75258 /* AppealRecommendation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppealRecommendation.swift; sourceTree = "<group>"; };
+		FAE2CDA73042B16B00B75258 /* AppealResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppealResult.swift; sourceTree = "<group>"; };
+		FAE2CDA93042B18F00B75258 /* OCRAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRAnalyzer.swift; sourceTree = "<group>"; };
+		FAE2CDAB3042B1B400B75258 /* FacebookLoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookLoginManager.swift; sourceTree = "<group>"; };
+		FAE2CDAD3042B1E100B75258 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FAE2CDAF3042B1F400B75258 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		FAE2CDB13042B3E800B75258 /* AppealFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppealFinder.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAE2CD683042A54E00B75258 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE2CD783042A55300B75258 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE2CD823042A55300B75258 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAE2CD623042A54E00B75258 = {
+			isa = PBXGroup;
+			children = (
+				FAE2CD6D3042A54E00B75258 /* FacebookAppealAssistant */,
+				FAE2CD7E3042A55300B75258 /* FacebookAppealAssistantTests */,
+				FAE2CD883042A55300B75258 /* FacebookAppealAssistantUITests */,
+				FAE2CD6C3042A54E00B75258 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAE2CD6C3042A54E00B75258 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAE2CD6B3042A54E00B75258 /* FacebookAppealAssistant.app */,
+				FAE2CD7B3042A55300B75258 /* FacebookAppealAssistantTests.xctest */,
+				FAE2CD853042A55300B75258 /* FacebookAppealAssistantUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAE2CD6D3042A54E00B75258 /* FacebookAppealAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				FAE2CD9C3042B00C00B75258 /* Views */,
+				FAE2CD9B3042AFFC00B75258 /* Login */,
+				FAE2CD9A3042AFE300B75258 /* OCR */,
+				FAE2CD993042AFC300B75258 /* Models */,
+				FAE2CD983042AF7D00B75258 /* Core */,
+				FAE2CD6E3042A54E00B75258 /* FacebookAppealAssistantApp.swift */,
+				FAE2CD703042A54E00B75258 /* ContentView.swift */,
+				FAE2CD723042A55300B75258 /* Assets.xcassets */,
+				FAE2CD743042A55300B75258 /* Preview Content */,
+			);
+			path = FacebookAppealAssistant;
+			sourceTree = "<group>";
+		};
+		FAE2CD743042A55300B75258 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FAE2CD753042A55300B75258 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FAE2CD7E3042A55300B75258 /* FacebookAppealAssistantTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAE2CD7F3042A55300B75258 /* FacebookAppealAssistantTests.swift */,
+			);
+			path = FacebookAppealAssistantTests;
+			sourceTree = "<group>";
+		};
+		FAE2CD883042A55300B75258 /* FacebookAppealAssistantUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAE2CD893042A55300B75258 /* FacebookAppealAssistantUITests.swift */,
+				FAE2CD8B3042A55300B75258 /* FacebookAppealAssistantUITestsLaunchTests.swift */,
+			);
+			path = FacebookAppealAssistantUITests;
+			sourceTree = "<group>";
+		};
+		FAE2CD983042AF7D00B75258 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FAE2CD9D3042B07800B75258 /* LockDetector.swift */,
+				FAE2CD9F3042B0D300B75258 /* AppealDatabase.swift */,
+				FAE2CDA13042B10100B75258 /* AppealMatcher.swift */,
+				FAE2CDB13042B3E800B75258 /* AppealFinder.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		FAE2CD993042AFC300B75258 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FAE2CDA33042B11D00B75258 /* AccountStatus.swift */,
+				FAE2CDA53042B14C00B75258 /* AppealRecommendation.swift */,
+				FAE2CDA73042B16B00B75258 /* AppealResult.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FAE2CD9A3042AFE300B75258 /* OCR */ = {
+			isa = PBXGroup;
+			children = (
+				FAE2CDA93042B18F00B75258 /* OCRAnalyzer.swift */,
+			);
+			path = OCR;
+			sourceTree = "<group>";
+		};
+		FAE2CD9B3042AFFC00B75258 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FAE2CDAB3042B1B400B75258 /* FacebookLoginManager.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		FAE2CD9C3042B00C00B75258 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FAE2CDAD3042B1E100B75258 /* HomeView.swift */,
+				FAE2CDAF3042B1F400B75258 /* ResultView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAE2CD6A3042A54E00B75258 /* FacebookAppealAssistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE2CD8F3042A55300B75258 /* Build configuration list for PBXNativeTarget "FacebookAppealAssistant" */;
+			buildPhases = (
+				FAE2CD673042A54E00B75258 /* Sources */,
+				FAE2CD683042A54E00B75258 /* Frameworks */,
+				FAE2CD693042A54E00B75258 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FacebookAppealAssistant;
+			productName = FacebookAppealAssistant;
+			productReference = FAE2CD6B3042A54E00B75258 /* FacebookAppealAssistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAE2CD7A3042A55300B75258 /* FacebookAppealAssistantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE2CD923042A55300B75258 /* Build configuration list for PBXNativeTarget "FacebookAppealAssistantTests" */;
+			buildPhases = (
+				FAE2CD773042A55300B75258 /* Sources */,
+				FAE2CD783042A55300B75258 /* Frameworks */,
+				FAE2CD793042A55300B75258 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAE2CD7D3042A55300B75258 /* PBXTargetDependency */,
+			);
+			name = FacebookAppealAssistantTests;
+			productName = FacebookAppealAssistantTests;
+			productReference = FAE2CD7B3042A55300B75258 /* FacebookAppealAssistantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAE2CD843042A55300B75258 /* FacebookAppealAssistantUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE2CD953042A55300B75258 /* Build configuration list for PBXNativeTarget "FacebookAppealAssistantUITests" */;
+			buildPhases = (
+				FAE2CD813042A55300B75258 /* Sources */,
+				FAE2CD823042A55300B75258 /* Frameworks */,
+				FAE2CD833042A55300B75258 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAE2CD873042A55300B75258 /* PBXTargetDependency */,
+			);
+			name = FacebookAppealAssistantUITests;
+			productName = FacebookAppealAssistantUITests;
+			productReference = FAE2CD853042A55300B75258 /* FacebookAppealAssistantUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAE2CD633042A54E00B75258 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					FAE2CD6A3042A54E00B75258 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					FAE2CD7A3042A55300B75258 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = FAE2CD6A3042A54E00B75258;
+					};
+					FAE2CD843042A55300B75258 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = FAE2CD6A3042A54E00B75258;
+					};
+				};
+			};
+			buildConfigurationList = FAE2CD663042A54E00B75258 /* Build configuration list for PBXProject "FacebookAppealAssistant" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAE2CD623042A54E00B75258;
+			productRefGroup = FAE2CD6C3042A54E00B75258 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAE2CD6A3042A54E00B75258 /* FacebookAppealAssistant */,
+				FAE2CD7A3042A55300B75258 /* FacebookAppealAssistantTests */,
+				FAE2CD843042A55300B75258 /* FacebookAppealAssistantUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAE2CD693042A54E00B75258 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE2CD763042A55300B75258 /* Preview Assets.xcassets in Resources */,
+				FAE2CD733042A55300B75258 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE2CD793042A55300B75258 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE2CD833042A55300B75258 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAE2CD673042A54E00B75258 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE2CDA63042B14C00B75258 /* AppealRecommendation.swift in Sources */,
+				FAE2CD9E3042B07800B75258 /* LockDetector.swift in Sources */,
+				FAE2CD713042A54E00B75258 /* ContentView.swift in Sources */,
+				FAE2CDAC3042B1B400B75258 /* FacebookLoginManager.swift in Sources */,
+				FAE2CD6F3042A54E00B75258 /* FacebookAppealAssistantApp.swift in Sources */,
+				FAE2CDB03042B1F400B75258 /* ResultView.swift in Sources */,
+				FAE2CDAE3042B1E100B75258 /* HomeView.swift in Sources */,
+				FAE2CDA23042B10100B75258 /* AppealMatcher.swift in Sources */,
+				FAE2CDAA3042B18F00B75258 /* OCRAnalyzer.swift in Sources */,
+				FAE2CDB23042B3E800B75258 /* AppealFinder.swift in Sources */,
+				FAE2CDA03042B0D300B75258 /* AppealDatabase.swift in Sources */,
+				FAE2CDA43042B11D00B75258 /* AccountStatus.swift in Sources */,
+				FAE2CDA83042B16B00B75258 /* AppealResult.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE2CD773042A55300B75258 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE2CD803042A55300B75258 /* FacebookAppealAssistantTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE2CD813042A55300B75258 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE2CD8C3042A55300B75258 /* FacebookAppealAssistantUITestsLaunchTests.swift in Sources */,
+				FAE2CD8A3042A55300B75258 /* FacebookAppealAssistantUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAE2CD7D3042A55300B75258 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAE2CD6A3042A54E00B75258 /* FacebookAppealAssistant */;
+			targetProxy = FAE2CD7C3042A55300B75258 /* PBXContainerItemProxy */;
+		};
+		FAE2CD873042A55300B75258 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAE2CD6A3042A54E00B75258 /* FacebookAppealAssistant */;
+			targetProxy = FAE2CD863042A55300B75258 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FAE2CD8D3042A55300B75258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAE2CD8E3042A55300B75258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAE2CD903042A55300B75258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FacebookAppealAssistant/Preview Content\"";
+				DEVELOPMENT_TEAM = CNSUV83JX6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Cho phép chọn screenshot để phân tích thông báo tài khoản.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appealassistant.FacebookAppealAssistant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAE2CD913042A55300B75258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FacebookAppealAssistant/Preview Content\"";
+				DEVELOPMENT_TEAM = CNSUV83JX6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Cho phép chọn screenshot để phân tích thông báo tài khoản.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appealassistant.FacebookAppealAssistant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAE2CD933042A55300B75258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appealassistant.FacebookAppealAssistantTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacebookAppealAssistant.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FacebookAppealAssistant";
+			};
+			name = Debug;
+		};
+		FAE2CD943042A55300B75258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appealassistant.FacebookAppealAssistantTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacebookAppealAssistant.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FacebookAppealAssistant";
+			};
+			name = Release;
+		};
+		FAE2CD963042A55300B75258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appealassistant.FacebookAppealAssistantUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FacebookAppealAssistant;
+			};
+			name = Debug;
+		};
+		FAE2CD973042A55300B75258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appealassistant.FacebookAppealAssistantUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FacebookAppealAssistant;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAE2CD663042A54E00B75258 /* Build configuration list for PBXProject "FacebookAppealAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE2CD8D3042A55300B75258 /* Debug */,
+				FAE2CD8E3042A55300B75258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE2CD8F3042A55300B75258 /* Build configuration list for PBXNativeTarget "FacebookAppealAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE2CD903042A55300B75258 /* Debug */,
+				FAE2CD913042A55300B75258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE2CD923042A55300B75258 /* Build configuration list for PBXNativeTarget "FacebookAppealAssistantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE2CD933042A55300B75258 /* Debug */,
+				FAE2CD943042A55300B75258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE2CD953042A55300B75258 /* Build configuration list for PBXNativeTarget "FacebookAppealAssistantUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE2CD963042A55300B75258 /* Debug */,
+				FAE2CD973042A55300B75258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAE2CD633042A54E00B75258 /* Project object */;
+}
